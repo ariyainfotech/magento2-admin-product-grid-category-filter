@@ -1,0 +1,26 @@
+{
+    "name": "ariyainfotech/module-adminproductgridcategoryfilter",
+    "description": "Module Developed By Yuvraj Raulji (www.ariyainfotech.com)",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Ariya InfoTech",
+            "email": "info@ariyainfotech.com"
+        },
+        {
+            "name": "Yuvraj Raulji",
+            "email": "toyuvrajraulji@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AriyaInfoTech\\AdminProductGridCategoryFilter\\": ""
+        }
+    }
+}
